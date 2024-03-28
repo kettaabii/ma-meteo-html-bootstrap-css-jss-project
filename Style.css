@@ -51,8 +51,9 @@
 body {
   display: flex;
   flex-direction: column;
+  background: url("pexels-denis-linine-753772.jpg");
+  background-size: 100%;
 
-  background: linear-gradient(to right, #deeeff, #0085b6);
 }
 .navbar{
 background: rgba(25, 255, 228, 0.2);
@@ -66,13 +67,12 @@ backdrop-filter: blur(5px);
 
 
 #cartetemp{
-  /* From https://css.glass */
-  background: rgba(0, 255, 204, 0.56);
-  background: linear-gradient(to top, #0062E6, #33AEFF);
 
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(5.8px);
-}
+  background: rgba(0, 248, 255, 0.32);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4.3px);
+  -webkit-backdrop-filter: blur(4.3px);}
 #cards{
   display: flex;
   align-items:center;}
@@ -122,9 +122,12 @@ backdrop-filter: blur(5px);
   text-decoration:none;
 }
 #nwlter {
-  background-image: linear-gradient(to top, #00c6fb 0%, #0957f3 100%);
-  border-radius: 8px;
-}
+  background: rgba(0, 248, 255, 0.32);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4.3px);
+  -webkit-backdrop-filter: blur(4.3px);}
+
 
 .pb-50 {
   padding-bottom: 50px;
