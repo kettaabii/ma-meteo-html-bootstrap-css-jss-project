@@ -207,3 +207,35 @@ backdrop-filter: blur(5px);
   backdrop-filter: blur(4.3px);
   -webkit-backdrop-filter: blur(4.3px);
 }
+.toggle-menu {
+  text-align: center;
+
+}
+
+.btn-group-toggle label {
+  border-radius: 0; /* Remove rounded corners */
+}
+
+.btn-group-toggle label:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.btn-group-toggle label:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+#headof{
+justify-content:space-between;
+align-items:center;}
+#infobanner{
+background: rgba(0, 248, 255, 0.32);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4.3px);
+  -webkit-backdrop-filter: blur(4.3px);
+}
+#tempinfo{
+border:solid;
+border-radius:6px;
+}
